@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC0000,100:FF6B6B&height=200&section=header&text=Santiago%20Barreiro%20Campos&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC7000,100:FF6B6B&height=200&section=header&text=Santiago%20Barreiro%20Campos&fontSize=45&fontColor=ffffff&animation=fadeIn" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=EC0000&center=true&vCenter=true&width=600&lines=Computer+Engineer;Machine+Learning+Enthusiast;Blockchain+Developer;Python+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=EC6000&center=true&vCenter=true&width=600&lines=Computer+Engineer;Machine+Learning+Enthusiast;Blockchain+Developer;Python+Developer" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -18,7 +18,7 @@
 
 ## Hello there! 👋
 
-I am *Santiago Barreiro Campos, a **Computer Engineer* at *Santander Digital Services* based in *Madrid, Spain. I graduated from **Universidad Europea de Madrid* and I'm passionate about exploring cutting-edge technologies in *Machine Learning, **Blockchain, and **Automation*.
+I am *Santiago Barreiro Campos*, a *Computer Engineer* at *Santander Digital Services* based in *Madrid, Spain*. I graduated from *Universidad Europea de Madrid* and I'm passionate about exploring cutting-edge technologies in *Machine Learning*, *Blockchain*, and *Automation*.
 
 - 🧠 Passionate about *Machine Learning* and *Neural Networks* — exploring innovative architectures like *BitNet*
 - ⛓️ Building decentralized solutions with *Blockchain* and *P2P technologies*
@@ -105,5 +105,5 @@ I am *Santiago Barreiro Campos, a **Computer Engineer* at *Santander Digital Ser
 - 📧 [Email](mailto:santiago.barreirocampos@gmail.com)
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:EC0000&height=100&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:EC7000&height=100&section=footer" />
 </div>
