@@ -8,9 +8,9 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santiagobarreirocampos)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santiago-barreiro-campos-b69054231/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SantiagoBarreiroCampos)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:santiago.barreiro@outlook.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:santiago.barreirocampos@gmail.com)
 
 </div>
 
@@ -93,14 +93,16 @@ I am *Santiago Barreiro Campos, a **Computer Engineer* at *Santander Digital Ser
 
 - ES Spanish — Native
 - EN English — Professional
+- FR French — Basic Professional
+- IT Italian — Basic
 
 ---
 
 ## Let's Connect
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/santiagobarreirocampos)
+- 💼 [LinkedIn](https://www.linkedin.com/in/santiago-barreiro-campos-b69054231/)
 - 💻 [GitHub](https://github.com/SantiagoBarreiroCampos)
-- 📧 [Email](mailto:santiago.barreiro@outlook.com)
+- 📧 [Email](mailto:santiago.barreirocampos@gmail.com)
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,100:EC0000&height=100&section=footer" />
