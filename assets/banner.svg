@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Santiago Barreiro Campos - Computer Engineer">
+  <rect x="0.5" y="0.5" width="999" height="239" rx="12" fill="#0D1117" stroke="#21262D"/>
+
+  <rect x="48" y="62" width="4" height="118" rx="2" fill="#EC7000"/>
+
+  <text x="72" y="104" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#E6EDF3">Santiago Barreiro Campos</text>
+  <text x="74" y="138" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#8B949E">Computer Engineer &#183; Santander Digital Services &#183; Madrid</text>
+  <text x="74" y="172" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#EC7000">Low-bit neural networks &#183; distributed systems &#183; ML automation</text>
+
+  <g>
+    <rect x="700" y="50" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="730" y="50" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="760" y="50" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="790" y="50" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="820" y="50" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="850" y="50" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="880" y="50" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="910" y="50" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="940" y="50" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="700" y="80" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="730" y="80" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="760" y="80" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="790" y="80" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="820" y="80" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="850" y="80" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="880" y="80" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="910" y="80" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="940" y="80" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="700" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="730" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="760" y="110" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="790" y="110" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="820" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="850" y="110" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="880" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="910" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="940" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="700" y="140" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="730" y="140" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="760" y="140" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="790" y="140" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="820" y="140" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="850" y="140" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="880" y="140" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="910" y="140" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="940" y="140" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="700" y="170" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="730" y="170" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="760" y="170" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="790" y="170" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect x="820" y="170" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="850" y="170" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="880" y="170" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.60"/>
+    <rect x="910" y="170" width="24" height="24" rx="5" fill="#EC7000" opacity="0.12"/>
+    <rect x="940" y="170" width="24" height="24" rx="5" fill="#EC7000"/>
+  </g>
+  <text x="700" y="216" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="11" letter-spacing="1.4" fill="#6E7681">TERNARY WEIGHTS &#8212; &#8722;1 &#183; 0 &#183; +1</text>
+</svg>
