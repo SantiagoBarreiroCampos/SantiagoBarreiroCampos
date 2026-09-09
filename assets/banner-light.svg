@@ -1,58 +1,123 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Santiago Barreiro Campos - Computer Engineer">
+  <style>
+    .w {
+      fill:#EC7000; stroke:#EC7000; stroke-width:1.6;
+      fill-opacity:1; stroke-opacity:0;
+      animation-duration:9s;
+      animation-iteration-count:infinite;
+      animation-timing-function:cubic-bezier(.45,.05,.25,1);
+    }
+    .bar   { animation:barPulse 9s ease-in-out infinite }
+    .sweep { animation:sweep 9s cubic-bezier(.45,.05,.25,1) infinite }
+    
+    @keyframes toP {
+        0%   { fill-opacity:.34; stroke-opacity:0 }
+       10%   { fill-opacity:.66; stroke-opacity:0 }
+       18%   { fill-opacity:.24; stroke-opacity:0 }
+       26%   { fill-opacity:.58; stroke-opacity:0 }
+       33%   { fill-opacity:1;   stroke-opacity:0 }
+       88%   { fill-opacity:1;   stroke-opacity:0 }
+      100%   { fill-opacity:.34; stroke-opacity:0 }
+    }
+    @keyframes toZ {
+        0%   { fill-opacity:.30; stroke-opacity:0 }
+        9%   { fill-opacity:.58; stroke-opacity:0 }
+       17%   { fill-opacity:.20; stroke-opacity:0 }
+       25%   { fill-opacity:.50; stroke-opacity:0 }
+       33%   { fill-opacity:.16; stroke-opacity:0 }
+       88%   { fill-opacity:.16; stroke-opacity:0 }
+      100%   { fill-opacity:.30; stroke-opacity:0 }
+    }
+    @keyframes toM {
+        0%   { fill-opacity:.40; stroke-opacity:0 }
+       11%   { fill-opacity:.18; stroke-opacity:0 }
+       19%   { fill-opacity:.62; stroke-opacity:0 }
+       27%   { fill-opacity:.26; stroke-opacity:0 }
+       33%   { fill-opacity:0;   stroke-opacity:.75 }
+       88%   { fill-opacity:0;   stroke-opacity:.75 }
+      100%   { fill-opacity:.40; stroke-opacity:0 }
+    }
+    @keyframes sweep {
+        0%,  24% { transform:translateX(-40px); opacity:0 }
+       29%      { opacity:.40 }
+       50%      { opacity:.40 }
+       56%, 100%{ transform:translateX(300px); opacity:0 }
+    }
+    @keyframes barPulse {
+        0%, 100% { opacity:.55 }
+       33%,  88% { opacity:1 }
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+      .w, .bar, .sweep { animation: none }
+      .sweep { opacity: 0 }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="sweepGrad" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0"   stop-color="#EC7000" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#EC7000" stop-opacity="1"/>
+      <stop offset="1"   stop-color="#EC7000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
   <rect x="0.5" y="0.5" width="999" height="239" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
 
-  <rect x="48" y="62" width="4" height="118" rx="2" fill="#EC7000"/>
+  <rect class="bar" x="48" y="62" width="4" height="118" rx="2" fill="#EC7000"/>
 
   <text x="72" y="104" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#0D1117">Santiago Barreiro Campos</text>
   <text x="74" y="138" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#57606A">Computer Engineer &#183; Santander Digital Services &#183; Madrid</text>
   <text x="74" y="172" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#B85C00">Low-bit neural networks &#183; distributed systems &#183; ML automation</text>
 
   <g>
-    <rect x="700" y="50" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="730" y="50" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="760" y="50" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="790" y="50" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="820" y="50" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="850" y="50" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="880" y="50" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="910" y="50" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="940" y="50" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="700" y="80" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="730" y="80" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="760" y="80" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="790" y="80" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="820" y="80" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="850" y="80" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="880" y="80" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="910" y="80" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="940" y="80" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="700" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="730" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="760" y="110" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="790" y="110" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="820" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="850" y="110" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="880" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="910" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="940" y="110" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="700" y="140" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="730" y="140" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="760" y="140" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="790" y="140" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="820" y="140" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="850" y="140" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="880" y="140" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="910" y="140" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="940" y="140" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="700" y="170" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="730" y="170" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="760" y="170" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="790" y="170" width="24" height="24" rx="5" fill="#EC7000"/>
-    <rect x="820" y="170" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="850" y="170" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="880" y="170" width="24" height="24" rx="5" fill="none" stroke="#EC7000" stroke-width="1.6" opacity="0.75"/>
-    <rect x="910" y="170" width="24" height="24" rx="5" fill="#EC7000" opacity="0.16"/>
-    <rect x="940" y="170" width="24" height="24" rx="5" fill="#EC7000"/>
+    <rect class="w" x="700" y="50" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.0s"/>
+    <rect class="w" x="730" y="50" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:0.16s"/>
+    <rect class="w" x="760" y="50" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.32s"/>
+    <rect class="w" x="790" y="50" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.48s"/>
+    <rect class="w" x="820" y="50" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.64s"/>
+    <rect class="w" x="850" y="50" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.8s"/>
+    <rect class="w" x="880" y="50" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.96s"/>
+    <rect class="w" x="910" y="50" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:1.12s"/>
+    <rect class="w" x="940" y="50" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:1.28s"/>
+    <rect class="w" x="700" y="80" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.0s"/>
+    <rect class="w" x="730" y="80" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.16s"/>
+    <rect class="w" x="760" y="80" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:0.32s"/>
+    <rect class="w" x="790" y="80" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.48s"/>
+    <rect class="w" x="820" y="80" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.64s"/>
+    <rect class="w" x="850" y="80" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:0.8s"/>
+    <rect class="w" x="880" y="80" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:0.96s"/>
+    <rect class="w" x="910" y="80" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:1.12s"/>
+    <rect class="w" x="940" y="80" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:1.28s"/>
+    <rect class="w" x="700" y="110" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.0s"/>
+    <rect class="w" x="730" y="110" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.16s"/>
+    <rect class="w" x="760" y="110" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.32s"/>
+    <rect class="w" x="790" y="110" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.48s"/>
+    <rect class="w" x="820" y="110" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.64s"/>
+    <rect class="w" x="850" y="110" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:0.8s"/>
+    <rect class="w" x="880" y="110" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.96s"/>
+    <rect class="w" x="910" y="110" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:1.12s"/>
+    <rect class="w" x="940" y="110" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:1.28s"/>
+    <rect class="w" x="700" y="140" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.0s"/>
+    <rect class="w" x="730" y="140" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.16s"/>
+    <rect class="w" x="760" y="140" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.32s"/>
+    <rect class="w" x="790" y="140" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:0.48s"/>
+    <rect class="w" x="820" y="140" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.64s"/>
+    <rect class="w" x="850" y="140" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.8s"/>
+    <rect class="w" x="880" y="140" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:0.96s"/>
+    <rect class="w" x="910" y="140" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:1.12s"/>
+    <rect class="w" x="940" y="140" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:1.28s"/>
+    <rect class="w" x="700" y="170" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:0.0s"/>
+    <rect class="w" x="730" y="170" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.16s"/>
+    <rect class="w" x="760" y="170" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.32s"/>
+    <rect class="w" x="790" y="170" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:0.48s"/>
+    <rect class="w" x="820" y="170" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:0.64s"/>
+    <rect class="w" x="850" y="170" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:0.8s"/>
+    <rect class="w" x="880" y="170" width="24" height="24" rx="5" style="animation-name:toM;animation-delay:0.96s"/>
+    <rect class="w" x="910" y="170" width="24" height="24" rx="5" style="animation-name:toZ;animation-delay:1.12s"/>
+    <rect class="w" x="940" y="170" width="24" height="24" rx="5" style="animation-name:toP;animation-delay:1.28s"/>
+    <rect class="sweep" x="676" y="42" width="52" height="164" fill="url(#sweepGrad)"/>
   </g>
+
   <text x="700" y="216" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="11" letter-spacing="1.4" fill="#8C959F">TERNARY WEIGHTS &#8212; &#8722;1 &#183; 0 &#183; +1</text>
 </svg>
