@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SantiagoBarreiroCampos/SantiagoBarreiroCampos/main/assets/banner.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SantiagoBarreiroCampos/SantiagoBarreiroCampos/main/assets/banner-light.svg">
-  <img alt="Santiago Barreiro Campos — Computer Engineer" src="https://raw.githubusercontent.com/SantiagoBarreiroCampos/SantiagoBarreiroCampos/main/assets/banner.svg" width="100%">
+  <img alt="Santiago Barreiro Campos — Software Engineer" src="https://raw.githubusercontent.com/SantiagoBarreiroCampos/SantiagoBarreiroCampos/main/assets/banner.svg" width="100%">
 </picture>
 
 </div>
