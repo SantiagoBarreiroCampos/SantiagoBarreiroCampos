@@ -8,7 +8,7 @@
 
 </div>
 
-Computer Engineer at **Santander Digital Services**, Madrid. Graduated from **Universidad Europea de Madrid**.
+Software Engineer at **Santander Digital Services**, Madrid. Graduated from **Universidad Europea de Madrid**.
 
 This account is where I park ideas. Something catches my attention — usually a question I cannot settle by reading about it — and I build the smallest thing that answers it, measure whether it actually worked, and stop there. *How far can a network be compressed before it stops working. Can a ballot be verifiable without anyone holding the voter's identity. What does coordination actually buy a fleet of vehicles. Why should a passing test fail because a `div` moved.*
 
